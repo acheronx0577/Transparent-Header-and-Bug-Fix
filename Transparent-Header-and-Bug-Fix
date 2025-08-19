@@ -1,0 +1,47 @@
+/**
+ * @name Transparent Header and Bug Fix
+ * @author AcheronX.
+ * @description Make corner squre and container in thread transparent
+ * @source https://github.com/acheronx0577/Transparent-Code-Block/blob/main/Transparent%20Code%20Block.css
+ * @version 0.0.1
+ * @website https://github.com/acheronx0577
+ */
+
+/* 🖱️ Resize Handle */
+.resizeHandle__01ae2 {
+  background: rgba(0, 0, 0, 0.664);
+}
+
+/* 🖼️ Stream Container - Remove rounded corners */
+.container__01ae2 {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+/* 🖼️ Alternate Container - Remove rounded corners */
+.container__f75fb0 {
+  border-radius: 0 !important;
+  overflow: hidden;
+}
+
+/* 🎥 Video Container - Semi-transparent background */
+.container__9293f {
+    background-color: rgba(0, 0, 0, 0.24) !important;
+    box-shadow: none !important;
+}
+
+/* 💬 Chat Box - Remove rounded corners */
+.chat_f75fb0 {
+    border-radius: 0 !important;
+}
+
+/* 🛠️ Toolbar Gradient - Remove gradient overlay */
+div.children__9293f.showToolbar__9293f::after {
+  background: transparent !important;
+}
+
+/* 📝 Topic Text - Light white color */
+.topic__6ec1a span,
+.topic__6ec1a {
+  color: #ffffffc7 !important;          
+}
